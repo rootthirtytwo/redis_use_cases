@@ -13,4 +13,4 @@ def get_key_name(*args):
 
 
 def get_order_id():
-    return random.randint(100000, 999999)
+    return str(random.randint(100000, 999999))
